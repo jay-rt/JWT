@@ -1,0 +1,10 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmF5IiwiaWF0IjoxNjY4OTUzODYwfQ.Ny0Dp8tXjlhr38zueS-yTwgXL_U1Nui3onn7a2UakFI
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Chrollo"
+}
